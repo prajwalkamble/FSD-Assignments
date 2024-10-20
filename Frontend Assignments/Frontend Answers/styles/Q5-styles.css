@@ -1,0 +1,167 @@
+body {
+  background: rgb(255, 167, 238);
+  background: linear-gradient(
+    135deg,
+    rgba(255, 167, 238, 1) 0%,
+    rgba(125, 0, 241, 1) 100%
+  );
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: space-between;
+  align-items: center;
+  height: 97.8vh;
+  width: 99vw;
+}
+
+.line1 {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  justify-content: center;
+}
+
+.line2 {
+  display: flex;
+  gap: 150px;
+  width: 100%;
+  justify-content: center;
+}
+
+.box1,
+.box2,
+.box3,
+.box4,
+.box5,
+.box6,
+.box7,
+.box8,
+.box9,
+.box10,
+.box11 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 200px;
+  position: relative;
+  background: gold;
+  background: linear-gradient(135deg, gold, rgb(223, 119, 0));
+  border: 2px solid black;
+  margin-bottom: 5px;
+}
+
+.inner-box {
+  display: flex;
+  height: 50px;
+  width: 50px;
+  margin: 2px;
+  padding: 1px;
+  background: linear-gradient(135deg, rgb(0, 191, 255), rgb(0, 59, 195));
+  border: 2px solid black;
+}
+
+.box1 {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.box1 .inner-box {
+  margin: 0;
+}
+
+.box2 {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.box2 .inner-box {
+  margin: 0;
+}
+
+.box3 {
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.box3 .inner-box {
+  margin: 0;
+}
+
+.box4 {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.box4 .inner-box {
+  margin-top: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.box5 {
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.box5 .inner-box {
+  margin: 0;
+}
+
+.box6 {
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.box6 .inner-box {
+  margin-top: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.box7 {
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.box7 .inner-box {
+  margin: 0;
+}
+
+.box8 {
+  justify-content: flex-start;
+}
+
+.box8 .inner-box {
+  margin: 0;
+}
+
+.box9 {
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.box9 .inner-box {
+  margin: 0;
+}
+
+.box10 {
+  justify-content: center;
+  align-items: center;
+}
+
+.box10 .inner-box {
+  margin: 0;
+}
+
+.box11 {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.box11 .inner-box {
+  margin: 0;
+}
